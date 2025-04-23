@@ -28,11 +28,15 @@ public class TelaConversor {
 		Container container = tela.getContentPane();
 		
 		labelCelsius = new JLabel();
-		labelCelsius.setText("Conversor de Temperatura");
-		labelCelsius.setBounds(20, 20, 190, 20);
+		labelCelsius.setText("Temperatura em graus Celsius:");
+		labelCelsius.setBounds(20, 30, 190, 20);
+		
+		textCelsius = new JTextField();
+		textCelsius.setBounds(20, 60, 550, 40);
 		
 		
 		container.add(labelCelsius);
+		container.add(textCelsius);
 		
 		
 		

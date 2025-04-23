@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		TelaConversor tela = new TelaConversor();
 		
-		tela.criarTelaConversor("Hyper Conversor de Temperatura");
+		tela.criarTelaConversor("Conversor de Temperatura");
 		
 	}
 
