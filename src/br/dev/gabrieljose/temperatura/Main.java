@@ -10,5 +10,4 @@ public class Main {
 		tela.criarTelaConversor("Conversor de Temperatura");
 		
 	}
-
 }
